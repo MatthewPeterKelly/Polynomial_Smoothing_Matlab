@@ -3,6 +3,7 @@ Function Smoothing via Polynomials
 ===========================================
 
 Updated: October 8, 2013
+Updated: June 24, 2017
 
 Written by Matthew Kelly
 Cornell University
@@ -11,6 +12,7 @@ Functions:
  - SmoothAbs
  - SmoothBnd
  - SmoothRamp
+ - SmoothStep
 
 Each function is a smooth version of a simple function.
 The user can specify the degree of smoothness, up to 8th order smooth at the transitions. The user can also specify a degree of 0, causing the function to return the original non-smooth function.
